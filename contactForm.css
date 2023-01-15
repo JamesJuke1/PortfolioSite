@@ -1,0 +1,150 @@
+#form{
+    display: block;
+}
+.contactFCF{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #d09c8b;
+    text-align: center;
+    background-color: #333135;
+    padding: 50px;
+    padding-bottom: 20px;
+    border: 5px groove #0daaf2;
+    border-radius: 2rem;
+    max-width: 100%;
+}
+.formGroup{
+    margin: .25rem;
+    text-align: center;
+    background-color: #333135;
+    border-radius: 2rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    border: #0daaf2 .5rem groove;
+}
+.formGroup .label{
+    border: none;
+}
+.inputGroup{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    text-align: center;
+}
+.contactFormControl{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 0.75rem;
+    font-size: 2rem;
+    line-height: 2;
+    color: #d09c8b;
+    background-color: #333135;
+    background-clip: padding-box;
+    border: 5px groove #0daaf2;
+    outline: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+.contactFormControl:focus{
+    border: 10px groove #d09c8b;
+}
+select.contactFormControl[size], select.contactFormControl[multiple]{
+    height: auto;
+}
+textarea.contactFormControl{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+}
+label.label{
+    display: inline-block;
+    margin: 2rem;
+    background-color: #333135;
+    text-align: center;
+}
+.credit{
+    padding: 1rem;
+    font-size: 2rem;
+    color: #d09c8b;
+    text-decoration: dashed;
+    background-color: #333135;
+    border-radius: 2rem;
+    border: #0daaf2 .5rem groove;
+}
+.credit a{
+    color: #0daaf2;
+    text-decoration: dashed;
+}
+.btn{
+    display: inline-block;
+    font-weight: 700;
+    color: #333135;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #d09c8b;
+    border: 2rem groove #0daaf2;
+    padding: 5px 10px;
+    font-size: 2rem;
+    line-height: 2;
+    border-radius: 1rem;
+    transition: color 0.15 ease, background-color 0.15 ease-in-out
+    border-color 0.15 ease-in-out, box-shadow 0.15 ease-in-out;
+}
+@media (prefers-reduced-motion: reduce)
+{
+    .btn{
+        transition: none;
+    }
+}
+.btn:hover{
+    color: #333135;
+    text-shadow: #fff;
+}
+.btn-primary{
+    color: #333135;
+    background-color: #0daaf2;
+    border-color: #d09c8b;
+}
+.label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #d09c8b;
+    text-align: center;
+}
+.body{
+    background-color: #0daaf2;
+}
+.navBar{
+    overflow: hidden;
+    background-color: #333135;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .25rem;
+    border: #0daaf2 .5rem groove;
+}
+.navBar a{
+    float: right;
+    color: #d09c8b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.navBar a.active{
+    background-color: #0daaf2;
+    color: #66000e;
+    border-radius: 2rem;
+}
