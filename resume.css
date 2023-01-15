@@ -1,6 +1,6 @@
 body{
-    background-color: #333135;
-    color: #d09c8b;
+    background-color: #0E0F0F;
+    color: #662C0A;
 }
 .resumePhoto{
     width: 50%;
@@ -11,7 +11,7 @@ body{
     width: fit-content;
     flex-wrap: wrap;
     text-align: center;
-    text-shadow: #7AF 1px 0 50px;
+    text-shadow: #662c0a 5px 5px 10px;
 }
 .titleDiv{
     width: 100rem;
@@ -30,6 +30,7 @@ body{
     flex-grow: auto;
     display: flexbox;
     position: absolute;
+    text-shadow: #4b0a66 5px  5px 10px;
 }
 .resumePhotoContact{
     max-width: 20rem;
@@ -47,10 +48,11 @@ body{
 .navBar{
     border: #66000e groove 1rem;
     overflow: hidden;
+    text-shadow: #4b0a66 5px 5px 10px;
 }
 .navBar a{
     float: right;
-    color: #d09c8b;
+    color: #662C0A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,9 +61,10 @@ body{
     padding: 1rem;
 }
 .navBar a.active{
-    background-color: #0daaf2;
-    color: #66000e;
+    background-color: #66000E;
+    color: #4b0a66;
     border-radius: 2rem;
+    text-shadow: #0E0F0F 5px 5px 20px;
 }
 
 

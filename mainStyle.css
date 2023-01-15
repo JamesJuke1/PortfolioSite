@@ -1,8 +1,8 @@
 body{
 	background-color: #0F0E0E;
 	/*color: #66000e;*/
-	text-shadow: #7AF 1px 0 50px;
-	color: #0DAAF2;
+	text-shadow: #66000E 5px 5px 5px;
+	color: #66000E;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 h2{
@@ -44,7 +44,7 @@ h2{
 	background-size: 100% 100%;
 }
 .marineText{
-	color:#D09C8B;
+	color:#662C0A;
 	font-size: 20px;
 	position: relative;
 	text-align: justify;
@@ -99,14 +99,14 @@ h2{
 .contact{
 	margin: 10px;
 	padding: 10px;
-	border-color: #0DAAF2;
+	border-color: #66000E;
 	border-style: groove;
 	border-width: 10px;
 	color: rgba(150,63,5,1.00);
 }
 .resume{
 	margin: 10px;
-	border-color: #0DAAF2;
+	border-color: #66000E;
 	border-width: 10px;
 	border-style: groove;
 	padding: 10px;
@@ -118,14 +118,14 @@ h1, h3{
 .marineDownPic, .saveTheBoyPic, .alphaOmegaUniversityPic{
 	border: groove;
 	border-width: 10px;
-	border-color: rgba(83,63,5,1.00);
+	border-color: #662C0A;
 	margin: 20px;
 	max-width: 600px;
 }
 
 .lineSeperator{
 	border: groove;
-	border-color: rgba(83,63,5,1.00);
+	border-color: #662C0A;
 	border-width: 10px;
 }
 *{
@@ -193,7 +193,7 @@ h1, h3{
 }
 .navBar a{
     float: right;
-    color: #d09c8b;
+    color: #662C0A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -202,7 +202,8 @@ h1, h3{
     padding: 1rem;
 }
 .navBar a.active{
-    background-color: #0daaf2;
-    color: #66000e;
+    background-color: #66000E;
+    color: #4B0A66;
     border-radius: 2rem;
+	text-shadow: #4B0A66 5px 5px 10px;
 }
