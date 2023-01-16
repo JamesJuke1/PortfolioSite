@@ -1,6 +1,7 @@
 .titleBar{
 	background-color: #0e0f0f;
 	overflow: hidden;
+	font-family: cursive;
 }
 .titleBar a{
 	float: right;
@@ -19,6 +20,7 @@
 	color: #4b6605;
 }
 .title{
+	font-family: cursive;
 	text-align: center;
 	color: #66000e;
 	font-size: 3rem;
@@ -26,4 +28,21 @@
 }
 .body{
 	background-color: #0e0f0f;
+}
+.personalPhoto{
+	align-items: center;
+	height: 10%;
+}
+.titlePhoto{
+	text-align: center;
+	margin: 1rem;
+}
+.lineSeperator{
+	border: #66000e 1rem groove;
+}
+.bodySection{
+	font-family: cursive;
+	font-size: 2rem;
+	color: #66000e;
+	text-shadow: #662c0a .25rem 1rem 1rem, #4b0a66 -.25rem -.25rem .5rem;
 }

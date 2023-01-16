@@ -5,8 +5,20 @@
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="A:\WebDevelopment\PortfolioSite\PortfolioSite\css\resume.css">
-        <title>James Juke Resume</title>
-    </head>
-    <body>
-    </body>
+        <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+</head>
+<body>
+  <div id="adobe-dc-view"></div>
+  <script type="text/javascript">
+   document.addEventListener("adobe_dc_view_sdk.ready", function()
+   {
+      var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+      adobeDCView.previewFile(
+     {
+         content:  {location: {url: "various\\Resume2023.pdf">}},
+         metaData: {fileName: "JamesJukeResume.pdf"}
+     });
+   });
+  </script>
+</body>
 </html>
