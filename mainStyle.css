@@ -4,12 +4,13 @@ body{
 	text-shadow: #66000E 5px 5px 5px;
 	color: #66000E;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: larger;
 }
 h2{
 	color: rgba(150,63,5,1.00);
 }
 .personalProjects{
-	display: flex;
+	display: inline;
 	image-resolution: snap;
 	background-size: cover;
 	width:auto;
@@ -26,12 +27,12 @@ h2{
 }
 .marineDown{
 	position:absolute;
-	top: 660px;
+	top: 475px;
 	bottom: 0;
 	right: 0;
-	left: 52px;
-	height: 75%;
-	width: 25%;
+	left: 51px;
+	height: 73%;
+	width: 24%;
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #66000e;
@@ -52,9 +53,9 @@ h2{
 .saveTheBoy{
 	position: absolute;
 	width: 32%;
-	height: 75%;
-	left: 585px;
-	top: 660px;
+	height: 73%;
+	left: 581px;
+	top: 475px;
 	transition: 1.5s ease;
 	opacity: 0;
 }
@@ -80,9 +81,9 @@ h2{
 .alphaOmegaU{
 	position: absolute;
 	width: 32%;
-	height: 75%;
-	right: 49px;
-	top: 660px;
+	height: 73%;
+	right: 60px;
+	top: 475px;
 	transition: 1.5s ease;
 	opacity: 0;
 }
