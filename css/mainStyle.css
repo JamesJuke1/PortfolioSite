@@ -46,3 +46,61 @@
 	color: #66000e;
 	text-shadow: #662c0a .25rem 1rem 1rem, #4b0a66 -.25rem -.25rem .5rem;
 }
+.gameTitle, .gameBrief{
+	color: #66000e;
+	text-shadow: #662c0a 1rem 1rem 2rem, #66000e -.25rem -.25rem .5rem;
+	font-size: 2rem;
+	display: flex;
+	padding: 1.5rem;
+	align-items: center;
+	align-content: space-around;
+}
+.gameTitle{
+	text-transform: uppercase;
+}
+.gridDivs{
+	display: flexbox;
+	align-items: stretch;
+}
+.imagesTitle{
+	color: #66000e;
+	text-shadow: #662c0a 1rem 1rem 2rem, #4b0a66 -.25rem -.25rem .5rem;
+	text-transform: uppercase;
+	padding: 3rem;
+}
+.imageBrief{ /*for the text about the images*/
+	color: #662c0a;
+	text-shadow: #66000e 1rem 1rem 2rem, #4b6605 -.25rem -.25rem .5rem;
+	font-size: 2rem;
+	flex-wrap: wrap;
+	padding: 3rem;
+	display:flex;
+	width: 500px;
+	max-width: 500px;
+}
+.enhancementSpan, .finalEnhanceSpan, .reforgeSpan, .craftingSpan{
+	gap: 20rem;
+	display: inline-flex;
+	flex: row wrap;
+	align-items:center;
+	align-content: space-between;
+}
+.projectTitle{
+	display: flex;
+	align-content: space-around;
+	padding: 2rem;
+}
+.snapshots{
+	align-content: space-around;
+	flex: 1 500rem;
+	align-items: center;
+}
+.enhancementSpan{
+	gap: 325px;
+}
+.finalEnhanceSpan{
+	gap: 260px;
+}
+.reforgeSpan{
+	gap: 255px;
+}
