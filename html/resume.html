@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
-        <title>JamesJukeResume</title>
-</head>
-<body class="body">
-    <div class="titleBar">
-		<a href="./index.html">Home</a>
-		<a href="../html/contact.html">Contact</a>
-		<a href="../html/personalProjects.html">Personal Projects</a>
-		<a href="../html/professionalProjects.html">Professional Projects</a>
-		<a class="active" href="../html/resume.html">Resume</a> </div>
-  <div id="adobe-dc-view"></div>
-  <script type="text/javascript">
-   document.addEventListener("adobe_dc_view_sdk.ready", function()
-   {
-      var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
-      adobeDCView.previewFile()
-     {
-         content:  {location: {url: "various\\James Jukiewicz Resume.pdf"}}
-         metaData: {fileName: "JamesJukeResume.pdf"}
-     };
-   });
-  </script>
-</body>
+        <meta http-equiv="X-UA-Compatabile" content="ie=edge">
+        <title>My Resume</title>
+        <link rel="stylesheet" href="../css/mainStyle.css">
+    </head>
+    <body class="body">
+      <div class="titleBar">
+        <a  href="../index.html">Home</a>
+        <a href="../html/contact.html">Contact</a>
+        <a href="../html/personalProjects.html">Personal Projects</a>
+        <a href="../html/professionalProjects.html">Professional Projects</a>
+        <a class="active" href="../html/resume.html">Resume</a>
+      </div>
+        </div>
+        <div class="titleDiv">
+        <h1 class="title">James Jukiewicz Resume</h1></div>
+            <div class="resumePhotoContact">
+        <img class="resumePhoto" src="../pictures/MySon&Me.jpg" alt="A pic of me and my son, a temp pic for a placeholder positioning." width="100px" height="100px">
+        <p class="location">Location: Lexington,NC</p>
+        <p class="email">Email: karmicrebirthgames@gmail.com</p>
+    </div>
+    <div class="bodySection">
+        <div class="workHistory">
+            <h2 class="experience">Work Experience</h2>
+            <h3 class="company">Freelance Programmer, Web Developer</h3>
+            <h3 class="date">Start date: 01/01/2023</h3>
+            <p class="jobDescription">Designed, developed created websites (psss... Including this one!). 
+                Designed developed, produced and created games and games related tools.</p>
+            <h2 class="experience"></h2>
+            <h3 class="company">Programmer, Tier 21 Studio</h3>
+            <h3 class="date">Start date: 01/01/2020</h3>
+            <p class="jobDescription">Designed, implemented & optimized project source code. 
+                Supervised, mentored, and motivated team members while mentoring and growing 
+                project influence, with research goals and optimizing the efficiency of code, 
+                errors, and reporting errors. Built and Customized UI elements, with the focus 
+                and styling of FF Tactics. Developed and Implemented Crafting and 
+                Enhancement Scenes (Check out the professional work section).</p>
+            <h2 class="experience"></h2>
+            <h3 class="company">Freelance Programmer, Game Development(various projects)</h3>
+            <h3 class="date">Start date: 01/01/2019</h3>
+            <p class="jobDescription">Created, enhanced, administrated game control objects 
+                & design implantation. Facilitated, mentored & supervised game integration 
+                and optimization, and repair of bug and bug reporting. 
+                Creation of UI elements and scenes as needed within the scope of the project.
+                 Designed, developed & implemented project. Optimized coding & maximized bug/ 
+                 error reporting and fixing. Mentored, supervised & grew developer team 
+                 and members. Implemented and maintained the UI elements</p>
+        </div>
+      </div>
+    </body>
 </html>
