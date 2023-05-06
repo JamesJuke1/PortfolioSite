@@ -213,3 +213,10 @@ h1, h3{
     border-radius: 2rem;
 	text-shadow: #4B0A66 5px 5px 10px;
 }
+.projectSeperator{
+	border: groove;
+	border-color: #66000E;
+	border-width: 10px;
+	width: 100%;
+	height: fit-content;
+}
