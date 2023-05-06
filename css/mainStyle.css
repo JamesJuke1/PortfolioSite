@@ -117,3 +117,6 @@
 .reforgeSpan{
 	gap: 255px;
 }
+.emailAddress{
+	text-decoration: underline;
+}
