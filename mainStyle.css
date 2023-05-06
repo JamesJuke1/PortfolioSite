@@ -9,6 +9,11 @@ body{
 h2{
 	color: rgba(150,63,5,1.00);
 }
+.intro{
+	position: absolute;
+	right: 500px;
+	display: inline-flex;
+}
 .personalProjects{
 	display: inline;
 	image-resolution: snap;
