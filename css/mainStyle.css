@@ -1,0 +1,119 @@
+.titleBar{
+	background-color: #0e0f0f;
+	overflow: hidden;
+	font-family: cursive;
+}
+.titleBar a{
+	float: right;
+	color: #66000e;
+	text-align: center;
+	padding: 16px 18px;
+	text-shadow: #31317e;
+	font-size: 2rem;
+}
+.titleBar a:hover{
+	background-color: #31317e;
+	color: #0e0f0f;
+}
+.titleBar a.active{
+	background-color: #6c5959;
+	color: #66000e;
+}
+.title{
+	font-family: cursive;
+	text-align: center;
+	color: #66000e;
+	font-size: 3rem;
+	text-shadow: #31317e 1rem 1rem 5rem;
+}
+.body{
+	background-color: #0e0f0f;
+}
+.location{
+	font-size: 1.5rem;
+	color: #66000e;
+	text-shadow:#31317e .25rem 1rem 1rem, #6c5959 -.25rem -.25rem .5rem;
+}
+.email{
+	font-size: 1.5rem;
+	color: #31317e;
+	text-shadow: #66000e .25rem 1rem 1rem, #6c5959 -.25rem -.25rem .5rem;
+}
+.personalPhoto{
+	align-items: center;
+	height: 10%;
+}
+.titlePhoto{
+	text-align: center;
+	margin: 1rem;
+}
+.lineSeperator{
+	border: #66000e 1rem groove;
+}
+.experience{
+	border: #66000e 1rem groove;
+}
+.bodySection{
+	font-family: cursive;
+	font-size: 2rem;
+	color: #66000e;
+	text-shadow: #31317e .25rem 1rem 1rem, #6c5959 -.25rem -.25rem .5rem;
+}
+.gameTitle, .gameBrief{
+	color: #66000e;
+	text-shadow: #31317e 1rem 1rem 2rem, #6c5959 -.25rem -.25rem .5rem;
+	font-size: 2rem;
+	display: flex;
+	padding: 1.5rem;
+	align-items: center;
+	align-content: space-around;
+}
+.gameTitle{
+	text-transform: uppercase;
+}
+.gridDivs{
+	display: flexbox;
+	align-items: stretch;
+}
+.imagesTitle{
+	color: #66000e;
+	text-shadow: #6c5959 1rem 1rem 2rem, #31317e -.25rem -.25rem .5rem;
+	text-transform: uppercase;
+	padding: 3rem;
+}
+.imageBrief{ /*for the text about the images*/
+	color: #6c5959;
+	text-shadow: #66000e 1rem 1rem 2rem, #31317e -.25rem -.25rem .5rem;
+	font-size: 2rem;
+	flex-wrap: wrap;
+	padding: 3rem;
+	display:flex;
+	width: 500px;
+	max-width: 500px;
+}
+.enhancementSpan, .finalEnhanceSpan, .reforgeSpan, .craftingSpan{
+	gap: 20rem;
+	display: inline-flex;
+	flex: row wrap;
+	align-items:center;
+	align-content: space-between;
+}
+.projectTitle{
+	display: flex;
+	align-content: space-around;
+	padding: 2rem;
+}
+.snapshots{
+	align-content: space-around;
+	flex: 1 500rem;
+	align-items: center;
+}
+.enhancementSpan{
+	gap: 325px;
+}
+.finalEnhanceSpan{
+	gap: 260px;
+}
+.reforgeSpan{
+	gap: 255px;
+}
